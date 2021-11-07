@@ -183,24 +183,25 @@
                 <div class="col">
                     <div class="container">
                         <h2 class="text-center mb-3">Contact</h2>
-                        <form action="">
+                        <form action="https://formsubmit.co/anddreasjo10@gmail.com" method="POST">
                             <div class="form-group">
                                 <div class="form-row">
                                     <div class="col">
                                         <label for="name" class="label">Name</label>
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
                                     </div>
                                     <div class="col">
                                         <label for="email" class="label">Email</label>
-                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
                                     </div>
+                                    <input type="hidden" name="_next" value="https://selowboi.github.io">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="message" class="label">Message</label>
                                 <textarea name="message" id="message" class="form-control" rows="3" placeholder="Message"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block font-weight-bold" onclick="validateParams()">Send</button>
+                            <button type="submit" name="submit" class="btn btn-primary btn-block font-weight-bold" onclick="validateParams()">Send</button>
                         </form>
                     </div>
                 </div>
