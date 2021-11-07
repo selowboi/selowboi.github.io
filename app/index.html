@@ -17,11 +17,9 @@
   </head>
   <body>
     <div class="container shadow">
-        <div class="row">
-            <div class="col-6">
-                <p class="navbar-brand text-dark font-weight-bold">selowboi</p>
-            </div>
-            <div class="col-6">
+        <nav class="navbar fixed-top">
+            <div class="container shadow bg-light">
+                <div class="navbar-brand text-dark font-weight-bold">selowboi</div>
                 <div class="d-flex justify-content-around">
                     <a href="#home" class="nav-link text-dark font-weight-bold">Home</a>
                     <a href="#tech-stack" class="nav-link text-dark font-weight-bold">Tech Stack</a>
@@ -29,7 +27,7 @@
                     <a href="#contact" class="nav-link text-dark font-weight-bold">Contact</a>
                 </div>
             </div>
-        </div>
+        </nav>
 
         <section id="home">
             <div class="row my-5">
@@ -46,7 +44,7 @@
                             </div>
                             <div class="card-text">
                                 <p>
-                                    Hi!, I'm a fast learner and diciplline Computer Science Student at Bina Nusantara University.
+                                    Hi!, I'm a fast learner and consistent Computer Science Student at Bina Nusantara University.
                                     Currently I'm interested to learn about Web Development, but I'm also open to learn about Mobile Development.
                                     You can reach me out with the link below. Hope you have a good day there! Cheers <i class="fa fa-beer text-warning" aria-hidden="true"></i>
                                 </p>
@@ -77,27 +75,30 @@
                         <h2>Tech Stack</h2>
                     </div>
                     <div class="container">
-                        <div class="row">
-                            <div class="col-3">
-                                <img class="img-thumbnail m-3" id="typescript" src="../assets/typescript.png" alt="">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" id="typescript" src="../assets/typescript.png" alt=Typescript">
                             </div>
-                            <div class="col-3">
-                                <img class="img-thumbnail m-3" src="../assets/nodejs.png" alt="">
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" src="../assets/node-js.png" alt="nodejs">
                             </div>
-                            <div class="col-3">
-                                <img class="img-thumbnail m-3" src="../assets/angular.png" alt="">
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" src="../assets/angular.png" alt="Angular">
                             </div>
-                            <div class="col-3">
-                                <img class="img-thumbnail m-3" src="../assets/postgresql.png" alt="">
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" src="../assets/postgresql.png" alt="PostgreSQL">
                             </div>
-                            <div class="col-3">
-                                <img class="img-thumbnail m-3" src="../assets/dynamodb.png" alt="">
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" src="../assets/sql.png" alt="Microsoft SQL Server">
                             </div>
-                            <div class="col-3">
-                                <img class="img-thumbnail m-3" src="../assets/java.png" alt="">
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" src="../assets/aws.png" alt="AWS DynamoDB">
                             </div>
-                            <div class="col-3">
-                                <img class="img-thumbnail m-3" src="../assets/git.png" alt="">
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" src="../assets/java.png" alt="Java">
+                            </div>
+                            <div class="col-md-1">
+                                <img class="img-thumbnail" src="../assets/git.png" alt="Git">
                             </div>
                         </div>
                     </div>
@@ -111,69 +112,74 @@
                     <div class="container">
                         <h2 class="text-center mb-3">Project</h2>
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="card mb-3">
-                                    <img src="../assets/store-del-luna.png" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Store Del Luna</h5>
-                                        <p class="card-text">
-                                            Store Del Luna is a K-Pop merchandise supplier that provides original K-Pop albums and merchandise from many artists. This project was made by me and my friends (Benny Kharisma and Andre Christian) and was assigned to us during our fourth semester at Bina Nusantara University. The purpose of this project is to test our knowledge about Photoshop, Web-Design, HTML, CSS, and Javascript. We managed to finish the project before the due time and got an A for this assignment.
-                                        </p>
-                                        <a href="https://github.com/selowboi/Store-Del-Luna" target="_blank" class="btn btn-primary">View</a>
+                            <div class="col">
+
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="../assets/store-del-luna.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Store Del Luna</h5>
+                                            <p class="card-text">
+                                                Store Del Luna is a K-Pop merchandise supplier that provides original K-Pop albums and merchandise from many artists. This project was made by me and my friends (Benny Kharisma and Andre Christian) and was assigned to us during our fourth semester at Bina Nusantara University. The purpose of this project is to test our knowledge about Photoshop, Web-Design, HTML, CSS, and Javascript. We managed to finish the project before the due time and got an A for this assignment.
+                                            </p>
+                                        </div>
+                                        <a href="https://github.com/selowboi/Store-Del-Luna" target="_blank" class="btn btn-primary text-light font-weight-bold">View</a>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="../assets/caroline-rentals.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Caroline Rentals</h5>
+                                            <p class="card-text">
+                                                Caroline Rentals is my first project as an assigment from BINUS IT Division and was assigned to made a realization of a web design they sent me. The purpose of this project is to test my knowledge about HTML, CSS, and Javascript and I managed to finished it before the due time and successfully advanced to the next step. </p>
+                                        
+                                        </div>
+                                        <a href="https://github.com/selowboi/Caroline-Rentals" target="_blank" class="btn btn-primary text-light font-weight-bold">View</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="../assets/myshop.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title">MyShop</h5>
+                                            <p class="card-text">
+                                                MyShop is a an mobile supermarket application that can allow users to view products from certain categories. At the moment users can only view the products. This application was created to test my knowledge about mobile development especially about mobile application lifecycle, intents, and other components.
+                                            </p>
+                                        </div>
+                                        <a href="https://github.com/selowboi/MyShop" target="_blank" class="btn btn-primary text-light font-weight-bold">View</a>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="../assets/kepo.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Kepo</h5>
+                                            <p class="card-text">
+                                                Kepo is a simple todo-list application that allows users to create, update, delete, and view their todo-list and allow them to view other todo-list. This project was created as my final assignment at BINUS IT Divion Bootcamp and to test my knowledge about mobile development. As the result, I managed to finished this project before the due time and got accepted into BINUS IT Division as part of sokrates apps division.
+                                            </p>
+                                        </div>
+                                        <a href="https://github.com/selowboi/Kepo" target="_blank" class="btn btn-primary text-light font-weight-bold">View</a>
                                     </div>
                                 </div>
+
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="../assets/selowboi.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Selowboi</h5>
+                                            <p class="card-text">
+                                                Selowboi is my personal portofolio website and the first project I made outside the university assignments. The purpose of this project is to showcase my skills, projects, and if you're interested to connect with me just click the link above or send me an email down below. Thanks, hope you have a wonderful day!
+                                            </p>
+                                        </div>
+                                        <a href="" class="btn btn-primary text-light font-weight-bold">View</a>
+                                    </div>
+                                </div>
+
+                       
                             </div>
     
-                            <div class="col-md-6">
-                                   <div class="card mb-3">
-                                    <img src="../assets/caroline-rentals.png" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Caroline Rentals</h5>
-                                        <p class="card-text">
-                                            Caroline Rentals is my first project as an assigment from BINUS IT Division and was assigned to made a realization of a web design they sent me. The purpose of this project is to test my knowledge about HTML, CSS, and Javascript and I managed to finished it before the due time and successfully advanced to the next step. </p>
-                                        <a href="https://github.com/selowboi/Caroline-Rentals" target="_blank" class="btn btn-primary">View</a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <div class="card mb-3">
-                                    <img src="../assets/dummy.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title">MyShop</h5>
-                                        <p class="card-text">
-                                            MyShop is a an mobile supermarket application that can allow users to view products from certain categories. At the moment users can only view the products. This application was created to test my knowledge about mobile development especially about mobile application lifecycle, intents, and other components.
-                                        </p>
-                                        <a href="https://github.com/selowboi/MyShop" target="_blank" class="btn btn-primary">View</a>
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="col-md-6">
-                                <div class="card mb-3">
-                                    <img src="../assets/dummy.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kepo</h5>
-                                        <p class="card-text">
-                                            Kepo is a simple todo-list application that allows users to create, update, delete, and view their todo-list and allow them to view other todo-list. This project was created as my final assignment at BINUS IT Divion Bootcamp and to test my knowledge about mobile development. As the result, I managed to finished this project before the due time and got accepted into BINUS IT DIVISION as part of sokrates apps division.
-                                        </p>
-                                        <a href="https://github.com/selowboi/Kepo" target="_blank" class="btn btn-primary">View</a>
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="col-md-6">
-                                <div class="card mb-3">
-                                    <img src="../assets/selowboi.png" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title">selowboi</h5>
-                                        <p class="card-text">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat temporibus dolorem nobis praesentium iure. A fuga, repellendus veniam exercitationem dolores laudantium iusto doloribus asperiores quasi quae, voluptas odit repellat cum obcaecati autem sed tempore aliquid mollitia! Maxime, nam itaque vel ex quibusdam cum. Nemo laborum ut temporibus reiciendis dolorem aut.
-                                        </p>
-                                        <a href="" class="btn btn-primary">View</a>
-                                    </div>
-                                </div>
-                            </div>
+            
     
                         </div>
                     </div>
@@ -203,7 +209,7 @@
                                 <label for="message" class="label">Message</label>
                                 <textarea name="message" id="message" class="form-control" rows="3" placeholder="Message"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block" onclick="validateParams()">Send</button>
+                            <button type="submit" class="btn btn-primary btn-block font-weight-bold" onclick="validateParams()">Send</button>
                         </form>
                     </div>
                 </div>
