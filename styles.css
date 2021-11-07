@@ -6,8 +6,8 @@ html {
     top: -8px;
 }
 
-section#home {
-    padding-top: 50px;
+section {
+    padding-top: 5rem;
 }
 
 .card-img-top {
