@@ -12,6 +12,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build -b main",
     "prepare": "husky install"
   },
   "dependencies": {
