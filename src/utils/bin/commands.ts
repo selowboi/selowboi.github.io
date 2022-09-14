@@ -37,10 +37,10 @@ More about me:
 'readme' - my github readme.`;
 };
 
-export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
-  return 'Opening resume...';
-};
+// export const resume = async (args: string[]): Promise<string> => {
+//   window.open(`${config.resume_url}`);
+//   return 'Opening resume...';
+// };
 
 // Donate
 // export const donate = async (args: string[]): Promise<string> => {
