@@ -1,11 +1,10 @@
 {
-  "name": "liveterm",
+  "homepage": "https://selowboi.github.io/selowboi.github.io",
+  "name": "selowboi",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Andreas Jonathan"
   },
   "scripts": {
     "dev": "next dev",
